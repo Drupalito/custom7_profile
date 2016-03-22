@@ -1,0 +1,133 @@
+name = starterProfile
+description = Profile installation theme and modules
+version = "7.x-0.1"
+core = 7.x
+
+; --------------
+; Theme Settings
+; --------------
+
+; Theme Settings
+settings[default_admin_theme] = "adminimal"
+settings[default_theme] = "SITE_PROJECT"
+
+; Default Site Settings
+settings[site_mail] = "DRUPAL_MAIL"
+settings[site_name] = "SITE_NAME"
+settings[site_slogan] = ""
+settings[default_country] = "FR"
+settings[default_timezone] = "Europe/Paris"
+settings[default_language] = "fr"
+
+; Default Admin User
+settings[default_admin_user_name] = DRUPAL_USER
+settings[default_admin_user_password] = DRUPAL_PASS
+
+; Module Googleanalytics Settings
+settings[ua_analytics] = "UA-"
+
+; ------------
+; Dependencies
+; ------------
+
+; Administration
+dependencies[] = admin_menu
+dependencies[] = adminimal_admin_menu
+
+; Chaos tool suite
+dependencies[] = ctools
+
+; Core - Install necessary core modules.
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = locale
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_views
+
+; Fields
+dependencies[] = email
+dependencies[] = field_collection
+dependencies[] = field_group
+dependencies[] = node_reference
+dependencies[] = references
+dependencies[] = user_reference
+dependencies[] = image_url_formatter
+
+; Mail
+dependencies[] = mailsystem
+dependencies[] = mimemail
+
+; Multilingual
+dependencies[] = l10n_update
+
+; Other
+dependencies[] = entity
+dependencies[] = entity_token
+; dependencies[] = media
+dependencies[] = menu_block
+dependencies[] = menu_token
+dependencies[] = pathauto
+dependencies[] = token
+dependencies[] = search_config
+dependencies[] = menu_trail_by_path
+dependencies[] = adminimal_admin_menu
+dependencies[] = module_filter
+dependencies[] = metatag
+dependencies[] = metatag_views
+
+; Rules
+dependencies[] = rules
+
+; Statistics
+dependencies[] = googleanalytics
+
+; Taxonomy menu
+dependencies[] = taxonomy_menu
+
+; User interface
+dependencies[] = ckeditor
+
+; Views
+dependencies[] = views
+dependencies[] = views_system
+dependencies[] = views_ui
+
+; Webform
+dependencies[] = webform
+
+; XML sitemap
+dependencies[] = page_title
+dependencies[] = xmlsitemap
+
+; Features
+dependencies[] = strongarm
+dependencies[] = features
+dependencies[] = features_override
+dependencies[] = webform_features

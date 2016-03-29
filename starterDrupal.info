@@ -90,6 +90,7 @@ dependencies[] = l10n_update
 ; Other
 dependencies[] = entity
 dependencies[] = entity_token
+dependencies[] = jquery_update
 ; dependencies[] = media
 dependencies[] = menu_block
 dependencies[] = menu_token

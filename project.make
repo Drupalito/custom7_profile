@@ -56,6 +56,7 @@ projects[google_analytics][subdir] = "contrib"
 projects[taxonomy_access_fix][subdir] = "contrib"
 projects[taxonomy_menu][subdir] = "contrib"
 projects[ckeditor][subdir] = "contrib"
+projects[libraries][subdir] = "contrib"
 
 projects[views][subdir] = "contrib"
 projects[views_system][subdir] = "contrib"
